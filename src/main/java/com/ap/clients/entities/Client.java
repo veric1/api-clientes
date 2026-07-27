@@ -1,4 +1,4 @@
-package com.thera.clients.entities;
+package com.ap.clients.entities;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;

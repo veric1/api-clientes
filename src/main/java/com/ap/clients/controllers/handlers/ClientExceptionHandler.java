@@ -1,9 +1,9 @@
-package com.thera.clients.controllers.handlers;
+package com.ap.clients.controllers.handlers;
 
-import com.thera.clients.dto.CustomError;
-import com.thera.clients.dto.ValidationError;
-import com.thera.clients.services.exceptions.DatabaseException;
-import com.thera.clients.services.exceptions.ResourceNotFoundException;
+import com.ap.clients.dto.CustomError;
+import com.ap.clients.dto.ValidationError;
+import com.ap.clients.services.exceptions.DatabaseException;
+import com.ap.clients.services.exceptions.ResourceNotFoundException;
 import jakarta.servlet.http.HttpServletRequest;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.ResponseEntity;

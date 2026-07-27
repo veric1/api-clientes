@@ -1,6 +1,5 @@
-package com.thera.clients.dto;
+package com.ap.clients.dto;
 
-import java.lang.reflect.Field;
 import java.time.Instant;
 import java.util.ArrayList;
 import java.util.List;

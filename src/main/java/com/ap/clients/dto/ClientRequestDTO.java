@@ -1,4 +1,4 @@
-package com.thera.clients.dto;
+package com.ap.clients.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.validation.constraints.*;

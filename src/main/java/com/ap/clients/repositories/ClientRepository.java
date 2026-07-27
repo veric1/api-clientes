@@ -1,6 +1,6 @@
-package com.thera.clients.repositories;
+package com.ap.clients.repositories;
 
-import com.thera.clients.entities.Client;
+import com.ap.clients.entities.Client;
 import org.springframework.data.jpa.repository.JpaRepository;
 
 public interface ClientRepository extends JpaRepository<Client,Long> {

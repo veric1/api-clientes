@@ -1,4 +1,4 @@
-package com.thera.clients.services.exceptions;
+package com.ap.clients.services.exceptions;
 
 public class DatabaseException extends RuntimeException{
     public DatabaseException(String message) {

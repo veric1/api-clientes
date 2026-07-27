@@ -1,8 +1,8 @@
-package com.thera.clients.controllers;
+package com.ap.clients.controllers;
 
-import com.thera.clients.dto.ClientRequestDTO;
-import com.thera.clients.dto.ClientResponseDTO;
-import com.thera.clients.services.ClientService;
+import com.ap.clients.dto.ClientRequestDTO;
+import com.ap.clients.dto.ClientResponseDTO;
+import com.ap.clients.services.ClientService;
 import jakarta.validation.Valid;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.domain.Page;

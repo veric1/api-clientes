@@ -1,4 +1,4 @@
-package com.thera.clients;
+package com.ap.clients;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;

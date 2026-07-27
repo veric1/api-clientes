@@ -1,14 +1,12 @@
-package com.thera.clients.services;
+package com.ap.clients.services;
 
-import com.thera.clients.dto.ClientRequestDTO;
-import com.thera.clients.dto.ClientResponseDTO;
-import com.thera.clients.entities.Client;
-import com.thera.clients.services.exceptions.DatabaseException;
-import com.thera.clients.services.exceptions.ResourceNotFoundException;
-import com.thera.clients.repositories.ClientRepository;
-import jakarta.persistence.EntityNotFoundException;
+import com.ap.clients.dto.ClientRequestDTO;
+import com.ap.clients.dto.ClientResponseDTO;
+import com.ap.clients.entities.Client;
+import com.ap.clients.services.exceptions.DatabaseException;
+import com.ap.clients.services.exceptions.ResourceNotFoundException;
+import com.ap.clients.repositories.ClientRepository;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.dao.DataIntegrityViolationException;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;

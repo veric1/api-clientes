@@ -1,7 +1,7 @@
-package com.thera.clients.dto;
+package com.ap.clients.dto;
 
 import com.fasterxml.jackson.annotation.JsonFormat;
-import com.thera.clients.entities.Client;
+import com.ap.clients.entities.Client;
 
 import java.time.LocalDate;
 

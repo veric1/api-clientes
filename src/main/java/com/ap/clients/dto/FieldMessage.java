@@ -1,4 +1,4 @@
-package com.thera.clients.dto;
+package com.ap.clients.dto;
 
 public class FieldMessage {
 
