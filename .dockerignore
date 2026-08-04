@@ -1,0 +1,43 @@
+# Controle de versão
+.git
+.gitignore
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.classpath
+*.project
+*.settings/
+
+# Build do Maven/Gradle
+target/
+build/
+.gradle/
+
+# Logs
+*.log
+logs/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Arquivos de configuração sensíveis
+.env
+application-local.properties
+application-dev.properties
+application-secret.properties
+
+# Testes (opcional)
+src/test/
+
+# Docker
+Dockerfile
+docker-compose.yml
+.dockerignore
