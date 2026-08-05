@@ -51,9 +51,6 @@ public class ClientService {
 
     @Transactional
     public ClientResponseDTO update(Long id, ClientRequestDTO clientRequestDTO){
-        if (repository.existsByCpf(clientRequestDTO.getCpf())) {
-            throw new DatabaseException("O CPF já está no banco");
-        }
         Client client = repository.findById(id).orElseThrow(()-> new ResourceNotFoundException("Recurso não encontrado"));
         copyDtoToClient(clientRequestDTO, client);
         client = repository.save(client);
